@@ -1,5 +1,5 @@
 # M7 (root side of the root/module twin): the same kind and name is declared in
-# ../../modules/records/main.tf and in acme/platform-repo/modules/records/main.tf.
+# ../../modules/records/main.tf and in Modules-Fixture-Platform/modules/records/main.tf.
 resource "aws_s3_bucket" "records" {
   bucket = "modfix-${var.environment}-records"
 }
